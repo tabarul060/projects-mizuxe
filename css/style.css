@@ -1,0 +1,72 @@
+body {
+  background: #f7f7f7;
+  color: #222;
+  margin-top: 90px; }
+
+h1 {
+  color: #222; }
+
+.btn {
+  border-radius: 0px !important; }
+
+.btn-primary {
+  background: #F9880D !important;
+  border: 0 !important; }
+
+.border-primary {
+  border: 2px solid #F9880D !important; }
+
+.text-primary {
+  color: #F9880D !important; }
+
+.bg-primary {
+  background: #F9880D !important; }
+
+.navbar {
+  box-shadow: 2px 3px 5px #FFB54A;
+  background: #fff;
+  opacity: 0.9; }
+  .navbar .navbar-brand {
+    color: #F9880D; }
+  .navbar .nav-item {
+    padding-right: 1rem; }
+    .navbar .nav-item .nav-link {
+      color: #F9880D !important;
+      font-size: 1.4rem; }
+    .navbar .nav-item .nav-link:hover {
+      color: #222 !important; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+/*=====Header Section======*/
+#home-section {
+  background: url("../asset/mountain.jpeg") no-repeat center top;
+  background-size: cover; }
+  #home-section .home-overlay {
+    background: rgba(249, 136, 13, 0.37); }
+
+#subscribe {
+  background: #252525; }
+
+#author-section img {
+  margin-top: -50px; }
+
+#author-section .fab {
+  color: #F9880D;
+  font-size: 25px; }
+
+#author-section .card-body:hover {
+  background: #F9880D;
+  color: #fff; }
+  #author-section .card-body:hover .fab {
+    color: #fff; }
+
+@media (max-width: 991px) {
+  #contact-section img {
+    display: none; } }
+
+@media (max-width: 578px) {
+  #home-section h1 {
+    font-size: 55px; }
+  #author-section h2 {
+    font-size: 45px; } }
